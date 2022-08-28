@@ -78,7 +78,7 @@ DATABASES = {
 
     'default': {
 
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.mysq',
 
         'NAME': 'sample',
 
@@ -89,6 +89,8 @@ DATABASES = {
         'HOST': 'localhost',
 
         'PORT': 3306,
+
+        'OPTIONS': {'charset': 'utf-8'},
 
     }
 
