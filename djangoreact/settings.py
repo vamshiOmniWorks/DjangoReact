@@ -78,7 +78,7 @@ DATABASES = {
 
     'default': {
 
-        'ENGINE': 'django.db.backends.mysq',
+        'ENGINE': 'django.db.backends.mysql',
 
         'NAME': 'sample',
 
